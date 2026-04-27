@@ -55,24 +55,31 @@ The full conceptual workflow includes:
 
 ## Repository Structure
 
+## Repository Structure
+
 ```text
-lung-cancer-single-cell-demo/
+lung-cancer-single-cell/
 │
 ├── README.md
 ├── scripts/
-│   ├── 01_preprocessing.R
-│   ├── 02_clustering_annotation.R
-│   ├── 03_differential_expression.R
-│   ├── 04_cnv_score_demo.R
-│   └── 05_survival_analysis_demo.R
-│
-├── figures/
-│   ├── workflow_overview.png
-│   ├── example_umap.png
-│   └── example_survival_plot.png
+│   ├── 01_qc_preprocessing.R
+│   ├── 02_normalization_clustering_umap.R
+│   ├── 03_singleR_annotation.R
+│   ├── 04_epithelial_subsetting_subtyping.R
+│   ├── 05_dataset_integration_demo.R
+│   ├── 06_infercnv_cnv_scoring_demo.R
+│   ├── 07_scRNA_tumor_vs_normal_DEG.R
+│   ├── 08_TCGA_stageI_DEG_limma_voom.R
+│   ├── 09_gene_annotation_GO_mapping.R
+│   ├── 10_ROC_biomarker_evaluation.R
+│   ├── 11_PPI_network_centrality.R
+│   └── 12_DepMap_lung_dependency_analysis.R
 │
 ├── data/
 │   └── README.md
+│
+├── figures/
+│   └── .gitkeep
 │
 └── requirements/
     └── packages_used.txt
