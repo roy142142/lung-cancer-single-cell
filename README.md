@@ -77,7 +77,8 @@ lung-cancer-single-cell/
 │   └── README.md
 │
 ├── figures/
-│   └── .gitkeep
+│   └── README.md
+│   └── Workflow_overview_public.png
 │
 └── requirements/
     └── package_versions.md
