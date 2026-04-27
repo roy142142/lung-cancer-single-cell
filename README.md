@@ -1,5 +1,5 @@
 # lung-cancer-single-cell
-Workflow for single-cell and bulk transcriptomic analysis in lung adenocarcinoma.
+Demo Workflow for single-cell and bulk transcriptomic analysis in lung adenocarcinoma.
 
 ## Overview
 
@@ -55,8 +55,6 @@ The full conceptual workflow includes:
 
 ## Repository Structure
 
-## Repository Structure
-
 ```text
 lung-cancer-single-cell/
 │
@@ -82,4 +80,4 @@ lung-cancer-single-cell/
 │   └── .gitkeep
 │
 └── requirements/
-    └── packages_used.txt
+    └── package_versions.md
