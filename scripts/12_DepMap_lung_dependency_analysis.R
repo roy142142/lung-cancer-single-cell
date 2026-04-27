@@ -7,8 +7,6 @@
 #
 # Notes:
 # - This is a demo workflow using the depmap R package.
-# - The threshold of mean_gene_effect <= -0.5 is used as an
-#   example criterion for potential gene dependency.
 # ------------------------------------------------------------
 
 library(depmap)
