@@ -8,15 +8,13 @@
 # - This is a simplified demo.
 # - `seurat_object_list` should contain multiple preprocessed
 #   Seurat objects, for example tumor and/or normal samples.
-# - Parameter values such as k.filter, k.anchor, k.weight, and dims
-#   are examples and should be tuned based on dataset size and quality.
+# - Parameter values such as k.filter, k.anchor, k.weight, and dims are examples
 # ------------------------------------------------------------
 
 library(Seurat)
 
 # -----------------------------
 # seurat_object_list <- list(sample1_obj, sample2_obj, sample3_obj)
-
 # -----------------------------
 # Select integration features
 # -----------------------------
