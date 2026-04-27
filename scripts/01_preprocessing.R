@@ -6,18 +6,13 @@
 #
 # Notes:
 # - This is a demo version prepared for GitHub use.
-# - No raw thesis data, patient information, or project-specific
-#   file paths are included.
 # - The input object `data_matrix` should be a gene-by-cell count matrix.
-# - The variables `dataset_name` and `output_dir` should be defined
-#   by the user before running the script.
 # ------------------------------------------------------------
 
 library(Seurat)
 library(ggplot2)
 
-# -----------------------------
-# User-defined input placeholders
+
 # -----------------------------
 # data_matrix <- readRDS("path/to/public_or_demo_count_matrix.rds")
 # dataset_name <- "demo_dataset"
