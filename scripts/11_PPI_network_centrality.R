@@ -7,8 +7,6 @@
 # and closeness.
 #
 # Notes:
-# - The input edge file should contain at least two columns:
-#   `node1` and `node2`.
 # - The edge file comes from resources such as STRING or
 #   Cytoscape-exported interaction tables.
 # ------------------------------------------------------------
