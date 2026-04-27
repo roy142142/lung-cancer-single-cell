@@ -7,9 +7,6 @@
 #
 # Notes:
 # - This is a demo version.
-# - `expr_mat` should be a gene-by-sample expression matrix.
-# - `class_vec` should be a binary vector indicating sample class.
-# - `genes_to_test` should contain candidate gene symbols.
 # ------------------------------------------------------------
 
 library(pROC)
