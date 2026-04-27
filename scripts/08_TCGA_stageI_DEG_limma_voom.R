@@ -7,8 +7,6 @@
 #
 # Notes:
 # - This is a demo template.
-# - The input object `data_expr` should be a SummarizedExperiment-like
-#   object containing count data and sample metadata.
 # ------------------------------------------------------------
 
 library(edgeR)
