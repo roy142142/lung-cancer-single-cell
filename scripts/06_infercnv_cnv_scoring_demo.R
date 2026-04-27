@@ -7,10 +7,7 @@
 #
 # Notes:
 # - This is a demo template.
-# - Users must provide their own raw count matrix, cell annotation file,
-#   and gene order file.
-# - CNV interpretation from scRNA-seq should be performed cautiously
-#   and ideally validated using orthogonal genomic data.
+
 # ------------------------------------------------------------
 
 library(infercnv)
@@ -52,8 +49,6 @@ infercnv_obj <- infercnv::run(
 # -----------------------------
 # Calculate per-cell CNV score
 # -----------------------------
-# Here, median absolute deviation is used as a simple summary
-# of CNV-like expression deviation per cell.
 cnv_matrix <- infercnv_obj@expr.data
 
 cnv_scores <- apply(
